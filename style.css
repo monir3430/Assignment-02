@@ -64,6 +64,10 @@ LOGO
 /*-------------------
 Popular Collection 
 -------------------*/
+.popular-head{
+    text-align: center;
+    font-size: 28px;
+}
 .popular-collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -147,11 +151,55 @@ Popular Collection
             Media Query and Mobile devices
 -------------------------------------------- */
 
-@media only screen and (max-width: 688px){
-    
-    nav>ul{
-        width: 400px;
-        background-color: lawngreen;
+@media screen and (max-width: 700px){
+    .influencer{
+        width: 450px;
+        flex-direction: column-reverse;
     }
-
-}
+   .influencer img{
+       width: 200px;
+   }
+   .logo{
+       display: none;
+   }
+   .navbar{
+      display: none;
+   }
+   h1{
+       text-align: left;
+       }
+       .popular-head{
+           text-align: left;
+       }
+       .popular-collection{
+           width: 450px;
+         grid-template-columns: 1fr;
+       }
+       .popular-collection img{
+           width: 150px;
+           height: 100px;
+           }
+        .collection{
+            width: 200px;
+        }
+        p{
+         inline-size: 200px;
+        }
+        .see-more{
+            margin-left: 100px;
+        }
+        .discount-area{
+            flex-direction: column;
+        }
+        .review img{
+            width: 150px;
+            height: 100px;
+        }
+        .footer{
+            margin-top: 480px;
+            width: 220px;
+        }
+        h3{
+            font: 8px;
+        }
+       }
