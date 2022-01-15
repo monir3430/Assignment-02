@@ -63,9 +63,21 @@ Popular Collection
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.collection{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 16px;
+    Width: 300px;
+    height: 460px;
+    box-shadow: 7px 7px 7px 7px #d3d0d0;
+}
 .image img{
     Width: 300px;
     Height:256px;
+}
+.info{
+    Width: 300px;
+    Height:256px; 
 }
 .fa-star{
     font-size: 12px;
@@ -75,4 +87,51 @@ Popular Collection
 }
 .fa-star.emty{
     color: #AEAEAE;
+}
+.see-more{
+    width: 120px;
+    height: 24px;
+    margin-left: 1060px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/*--------------
+    Diacount Area
+----------------*/
+.discount-area{
+    display: flex;
+    Width: 1110px;
+    Height: 270px;
+    padding: 5px;
+    text-align: justify;
+}
+.review a{
+    width: 100%;
+}
+.join{
+    width: 145px;
+    height: 30px;
+    background-color: #E02C6D;
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+}
+.footer{
+    height: 190px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.foot-headline{
+    padding-top: 2px;
+    font-size: 24px;
+}
+.foot-link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foot-link a{
+    margin-right: 17px;
 }
