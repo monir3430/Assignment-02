@@ -207,4 +207,52 @@ Popular Collection
         }
         
        }
-       
+       /*-------------------
+       For Tablet Devices 
+       ---------------------*/
+       @media(min-width: 701px) and (max-width: 992px){
+        body{
+            width: 701px;
+        }
+        .navbar, .logo{
+            display: none;
+        }
+        .influencer{
+            flex-direction: column-reverse;
+        }
+       .influencer img{
+           width: 200px;
+       }
+       .popular-head{
+        text-align: left;
+       }
+       .popular-collection{
+        width: 250px;
+      grid-template-columns: repeat(2, 1fr)
+    }
+    .popular-collection img{
+        width: 150px;
+        height: 100px;
+        }
+     .collection{
+         width: 200px;
+     }
+     p{
+      inline-size: 200px;
+}
+.see-more{
+    margin-left: 200px;
+}
+.discount-area{
+    flex-direction: column;
+}
+.review img{
+    width: 250px;
+    height: 150px;
+}
+.footer{
+    margin-top: 500px;
+    width: 600px;
+    height: 250px;
+}
+ }
